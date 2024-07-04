@@ -11,6 +11,7 @@ def concat(str1: str, str2: str) -> str:
         str1(str): string 1
         str2(str): string 2
 
-    Returns: str1+str2
+    Returns: 
+            str: str1+str2
     """
     return str1 + str2
