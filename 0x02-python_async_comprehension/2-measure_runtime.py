@@ -15,7 +15,7 @@ spec.loader.exec_module(module)
 async_comprehension = module.async_comprehension
 
 
-async def measure_runtime()-> float:
+async def measure_runtime() -> float:
     """
     measure the total runtime
     Args:
