@@ -19,5 +19,6 @@ async def async_comprehension() -> List[float]:
         None
     Return:
     """
-    result = [i async for i in async_generator()]
-    return result
+    for _ in range(10):
+        await asyncio.sleep(1)
+        yield random.uniform(0, 10)
