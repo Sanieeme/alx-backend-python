@@ -2,9 +2,10 @@
 """corouutine function"""
 import random
 import asyncio
+from typing import Generator
 
 
-async def async_generator() -> float:
+async def async_generator() -> Generator[float, None, None]:
     """
     takes no arguments
     Args:
